@@ -72,7 +72,7 @@ if __name__ == "__main__":
     # Load the model before starting the API service
     load_model(ckpt_dir, tokenizer_path)
 
-    print("Llama3.1-8B inference service started on 127.0.0.1: 5010")
+    print("Llama3.1-8B inference service started on 127.0.0.1: 5010/chat")
 
     # Run the Flask app
     app.run(host='0.0.0.0', port=5010)
